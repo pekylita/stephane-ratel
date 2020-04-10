@@ -45,10 +45,10 @@ client.on("guildMemberAdd", member => {
 	let textChannel = client.channels.cache.get('691044527997452360');
 	
 	textChannel.send(
-		`Hello <@${member.user.id}> and welcome to the Century Endurance server ðŸ‘‹
+		`Hello <@${member.user.id}> and welcome to the Century Endurance server 👋
 See the <#691045736145747978> channel for information how to join our races!
-Also please change your name to "<First Name> <Last Name>" format ðŸ™
-Thanks, have fun and enjoy your stay ðŸ‘`
+Also please change your name to "<First Name> <Last Name>" format 🙏
+Thanks, have fun and enjoy your stay 👍`
 		)
 	}
 )
